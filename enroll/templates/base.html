@@ -1,0 +1,25 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crud application</title>
+    
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    
+  </head>
+  <body>
+    <div class="container mt-5">
+  <h2 class="text-center alert alert-danger">Function Based View ModelForm CRUD Project</h2>
+  {% block contect %}
+  
+  {% endblock contect %}
+</div>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+
+  </body>
+</html>
